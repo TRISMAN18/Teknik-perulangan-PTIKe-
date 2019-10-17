@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main(){
+  int r,s,t,u;
+  cout<<"Masukan jumlah Baris: ";
+  cin>>t;
+  for (r=1;r<=t;r++) {
+    cout<<r;
+    u=t-r;
+  for(s=1; s<=u; s++)
+    cout<<" ";
+   for(s=1; s<=r; s++)
+    cout<<"* ";
+    cout<<endl;
+ }
+  return 0;
+ }
